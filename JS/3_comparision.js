@@ -13,6 +13,20 @@
 // console.log(null >= 0);
 
 // ===
-
 console.log("2" === 3);
+
+// Arrays, Objects, Functions
+
+const heros = ["a", "b", "c"];
+
+let myObj = {
+    name: "viren",
+    age: 19,
+
+}
+
+const myFunction = function(){
+    console.log("hello world");
+    
+}
 
