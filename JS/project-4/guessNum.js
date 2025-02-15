@@ -10,7 +10,7 @@ const startOver = document.querySelector('.resultParas')
 const p = document.createElement('p');
 
 let prevGuess = [];
-let numGuess = 1;
+let numGuess = 2;
 
 let playGame = true;
 
@@ -59,7 +59,7 @@ function displayGuess(guess) {
      userInput.value = '';
      guessLot.innerHTML += `${guess},`;
      numGuess++;
-     remaining.innerHTML = `${11 - numGuess}`
+     remaining.innerHTML = `${12 - numGuess}`
 }
 
 function displayMessage(message) {
